@@ -8,5 +8,5 @@ skaitlis=100
 min_rob=101
 max_rob=501
 for i in range(100):
-    random_skaitlis=random
+    random_skaitlis=random.randint(101,501)
     print(random_skaitlis)
